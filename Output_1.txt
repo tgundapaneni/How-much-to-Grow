@@ -1,0 +1,41 @@
+// solution (optimal) with objective 115646.472167147
+// Quality There are no bound infeasibilities.
+// There are no reduced-cost infeasibilities.
+// Max. unscaled (scaled) Ax-b resid.          = 3.18323e-12 (5.15143e-14)
+// Max. unscaled (scaled) c-B'pi resid.        = 5.68434e-14 (5.68434e-14)
+// Max. unscaled (scaled) |x|                  = 25889 (161.495)
+// Max. unscaled (scaled) |slack|              = 102.663 (102.663)
+// Max. unscaled (scaled) |pi|                 = 535.61 (535.61)
+// Max. unscaled (scaled) |red-cost|           = 397.1 (397.1)
+// Condition number of scaled basis            = 5.8e+02
+// 
+
+Profit = [20960
+         22370 25889 24057 22371];
+Capital_outlay = [0 0 0 0 0];
+Num_dairy_cows = [94.5 88.85 97.299 84.289 72.337];
+Num_cows = [[9 23.85 0 0 0]
+             [9 8.1 21.465 0 0]
+             [9.5 8.55 7.695 20.392 0]
+             [9.5 9.025 8.1225 7.3102 19.372]
+             [9.5 9.025 8.5738 7.7164 6.9447]
+             [9.5 9.025 8.5738 8.1451 7.3306]
+             [9.5 9.025 8.5738 8.1451 7.7378]
+             [9.5 9.025 8.5738 8.1451 7.7378]
+             [9.5 9.025 8.5738 8.1451 7.7378]
+             [9.5 9.025 8.5738 8.1451 7.7378]
+             [9.5 9.025 8.5738 8.1451 7.7378]
+             [9.5 9.025 8.5738 8.1451 7.7378]];
+Num_cows_0 = [26.5 0 0 0 0];
+Heif_sold = [25.475 48.868 53.514 46.359 39.785];
+Grain_grown = [[22 22 22 22 22]
+             [0 0 0 0 0]
+             [0 0 0 0 0]
+             [0 0 0 0 0]];
+Grain_bought = [34.7 31.31 36.379 28.573 21.402];
+Grain_Sold = [0 0 0 0 0];
+Sb_grown = [92.75 112.87 124.05 143.57 161.5];
+Sb_bought = [0 0 0 0 0];
+Sb_sold = [26.6 50.68 55.943 84.565 110.86];
+Num_excess_lbr_hrs = [0 0 0 0 0];
+

@@ -1,0 +1,46 @@
+/*********************************************
+ * OPL 12.10.0.0 Data
+ * Author: peddi
+ * Creation Date: Dec 12, 2020 at 5:21:18 PM
+ *********************************************/
+Tot_grps = 4;
+Tot_years = 5;
+Tot_Ages = 12;
+
+Init_num_cows = [10 10 10 10 10 10 10 10 10 10 10 10];
+Heif_survival = 0.95; //100-5 %
+Cow_survival = 0.98; //100-2 %
+Calf_born_rate = 1.1;
+Heif_born_fraction = 0.50;
+Max_num_cows = 130;
+Gr_req_Cow = 0.6;
+Sb_req_Cow = 0.7;
+Grain_prod_Acre = [1.1 0.9 0.8 0.65];
+Acres_Grp = [20 30 20 10];
+Sb_prod_Acre = 1.5;
+Heif_acre_needed = 0.6666667;
+Cow_acre_needed = 1.0;
+Total_acres = 200;
+Heif_req_labor = 0.1; //in 100's of hrs
+Cow_req_labor = 0.42; //in 100's of hrs
+Tot_labor = 55; 	 //in 100's of hrs
+Gr_req_labor = 0.04;  //in 100's of hrs
+Sb_req_labor = 0.14;  //in 100's of hrs
+Max_inc_ratio = 0.50;
+Max_dec_ratio = 0.75;
+Bullock_sell_price = 30;
+Heif_sell_price = 40;
+Cow_sell_price = 120;
+Milk_per_Cow_sell_price = 370;
+Gr_sell_price = 75;
+Sb_sell_price = 58;
+Gr_buy_price = 90;
+Sb_buy_price = 70;
+Lbr_fixed_cost = 4000;
+Excess_lbr_cost = 120;
+Heif_othr_cost_price = 50;
+Cow_othr_cost_price = 100;
+Gr_othr_cost_price = 15;
+Sb_othr_cost_price = 10;
+num_loan_yrs = 10;
+Annual_Intr_rate = 39.71; // The annual repayment on a 200 pound loan is {200*0.15}/{1-[1+0.15]^-10} 
